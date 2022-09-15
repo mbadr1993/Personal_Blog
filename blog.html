@@ -10,55 +10,77 @@
 </head>
 
 <body>
-    <div class="grid-container">
+    <div class="grid-container blog">
         <!-- START: Header -->
         <header>
             <a href="./index.html" class="logo">Blog</span>
-            <nav>
-                <ul>
-                    <il>
-                        <a href='#'>Search</a>
-                    </il>
-                    <li>
-                        <a href='#'>Logout</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <il>
+                            <a href='#'>Search</a>
+                        </il>
+                        <li>
+                            <a href='#'>Logout</a>
+                        </li>
+                    </ul>
+                </nav>
         </header>
         <!-- END: Header -->
-        <!-- START: Side menu -->
-        <aside>
-            <ul>
-                <li><a href="./blog.html">link text</a></li>
-                <li><a href="./blog.html">link text</a></li>
-                <li><a href="./blog.html">link text</a></li>
-                <li><a href="./blog.html">link text</a></li>
-            </ul>
-        </aside>
-        <!-- END: Side menu -->
         <!-- START: Main -->
-        <main>
+        <main class="blog-main">
             <div class="blog-container">
                 <h1>Blog Title</h1>
-                <div class="blog-image">
-                    <img src="images/udacity_branding_4x.webp" alt="image">
+                <div class="author-info">
+                    <div class="avatar">
+                        <img src="images/download.png" alt="image">
+                    </div>
+                    <div class="info">
+                        <p>Brian Cox</p>
+                        <p>Current Company/School</p>
+                    </div>
+                    <ul class="social-share">
+                        <li>
+                            <svg>
+                                <use xlink:href="#icon-facebook" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg>
+                                <use xlink:href="#icon-linkedIn" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg>
+                                <use xlink:href="#icon-twitter" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                        </li>
+                    </ul>
                 </div>
+                <figure class="blog-image">
+                    <img src="images/udacity_branding_4x.webp" alt="image">
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                        vero
+                        velit corrupti</figcaption>
+                </figure>
                 <div class="date">
                     23/3/2022
                 </div>
-                <p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.:</p>
+
+                <blockquote cite="http://www.worldwildlife.org/who/index.html">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate vero
                     velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
                     ipsam.
                     Dignissimos cum voluptas libero voluptates.
                     In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
-                    reiciendis
+                    reiciendis<br />
+                    <b><em>Dignissimos cum voluptas libero voluptates.</em></b>
                     esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium architecto
                     culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
                     Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi quia
                     laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
-                    harum?
-                    Aut possimus voluptate suscipit. Iusto, recusandae?Lorem ipsum dolor sit amet consectetur
+                    harum?<br />
+                    <u>Aut possimus voluptate suscipit.</u> Iusto, recusandae?Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Ullam sint error cupiditate vero
                     velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
                     ipsam.
@@ -71,13 +93,31 @@
                     laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
                     harum?
                     Aut possimus voluptate suscipit. Iusto, recusandae?
-                </p>
+                </blockquote>
 
-                <div class="blog-image">
+                <figure class="blog-image">
                     <img src="images/udacity_branding_4x.webp" alt="image">
-                </div>
-                <p>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                        vero
+                        velit corrupti</figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.:</p>
+
+                <blockquote cite="http://www.worldwildlife.org/who/index.html">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate vero
+                    velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
+                    ipsam.
+                    Dignissimos cum voluptas libero voluptates.
+                    In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
+                    reiciendis<br />
+                    <b><em>Dignissimos cum voluptas libero voluptates.</em></b>
+                    esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium architecto
+                    culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
+                    Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi quia
+                    laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
+                    harum?<br />
+                    <u>Aut possimus voluptate suscipit.</u> Iusto, recusandae?Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ullam sint error cupiditate vero
                     velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
                     ipsam.
                     Dignissimos cum voluptas libero voluptates.
@@ -89,118 +129,176 @@
                     laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
                     harum?
                     Aut possimus voluptate suscipit. Iusto, recusandae?
-                </p>
+                </blockquote>
 
             </div>
 
             <!-- START: related -->
-            <div class="row">
+            <div class="related">
 
-                <div class="col">
+                <div class="col w-100">
                     <h3>Related</h3>
                 </div>
-
-            </div>
-            <div class="row">
-                <div class="col">
-                    <!-- START: Card -->
-                    <div class="card">
-                        <div class="image">
-                            <img src="images/udacity_branding_4x.webp" alt="image">
+                <div class="row">
+                    <div class="col">
+                        <!-- START: Card -->
+                        <div class="card">
+                            <figure class="image">
+                                <img src="images/udacity_branding_4x.webp" alt="image">
+                                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error
+                                    cupiditate vero
+                                    velit corrupti</figcaption>
+                            </figure>
+                            <div class="content">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                                    vero
+                                    velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
+                                    ipsam.
+                                    In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
+                                    reiciendis
+                                    esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium
+                                    architecto
+                                    culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
+                                    Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi
+                                    quia
+                                    laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus
+                                    odit
+                                    harum?
+                                    Aut possimus voluptate suscipit. Iusto, recusandae?</p>
+                                <a class="btn" href="./blog.html">reed more</a>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h3>Title</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate vero
-                                velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
-                                ipsam.
-                                Dignissimos cum voluptas libero voluptates.
-                                In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
-                                reiciendis
-                                esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium architecto
-                                culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
-                                Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi quia
-                                laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
-                                harum?
-                                Aut possimus voluptate suscipit. Iusto, recusandae?</p>
-                            <a href="#">reed more >></a>
-                        </div>
+                        <!-- END: Card -->
                     </div>
-                    <!-- END: Card -->
-                </div>
-                <div class="col">
-                    <!-- START: Card -->
-                    <div class="card">
-                        <div class="image">
-                            <img src="images/udacity_branding_4x.webp" alt="image">
+                    <div class="col">
+                        <!-- START: Card -->
+                        <div class="card">
+                            <figure class="image">
+                                <img src="images/udacity_branding_4x.webp" alt="image">
+                                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error
+                                    cupiditate vero
+                                    velit corrupti</figcaption>
+                            </figure>
+                            <div class="content">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                                    vero
+                                    velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
+                                    ipsam.
+                                    Dignissimos cum voluptas libero voluptates.
+                                    In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
+                                    reiciendis
+                                    esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium
+                                    architecto
+                                    culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
+                                    Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi
+                                    quia
+                                    laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus
+                                    odit
+                                    harum?
+                                    Aut possimus voluptate suscipit. Iusto, recusandae?</p>
+                                <a class="btn" href="./blog.html">reed more</a>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h3>Title</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate vero
-                                velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
-                                ipsam.
-                                Dignissimos cum voluptas libero voluptates.
-                                In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
-                                reiciendis
-                                esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium architecto
-                                culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
-                                Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi quia
-                                laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
-                                harum?
-                                Aut possimus voluptate suscipit. Iusto, recusandae?</p>
-                            <a href="#">reed more >></a>
-                        </div>
+                        <!-- END: Card -->
                     </div>
-                    <!-- END: Card -->
-                </div>
-                <div class="col">
-                    <!-- START: Card -->
-                    <div class="card">
-                        <div class="image">
-                            <img src="images/udacity_branding_4x.webp" alt="image">
+                    <div class="col">
+                        <!-- START: Card -->
+                        <div class="card">
+                            <figure class="image">
+                                <img src="images/udacity_branding_4x.webp" alt="image">
+                                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error
+                                    cupiditate vero
+                                    velit corrupti</figcaption>
+                            </figure>
+                            <div class="content">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                                    vero
+                                    velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
+                                    ipsam.
+                                    Dignissimos cum voluptas libero voluptates.
+                                    In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
+                                    reiciendis
+                                    esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium
+                                    architecto
+                                    culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
+                                    Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi
+                                    quia
+                                    laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus
+                                    odit
+                                    harum?
+                                    Aut possimus voluptate suscipit. Iusto, recusandae?</p>
+                                <a class="btn" href="./blog.html">reed more</a>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h3>Title</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate vero
-                                velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
-                                ipsam.
-                                Dignissimos cum voluptas libero voluptates.
-                                In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
-                                reiciendis
-                                esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium architecto
-                                culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
-                                Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi quia
-                                laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
-                                harum?
-                                Aut possimus voluptate suscipit. Iusto, recusandae?</p>
-                            <a href="#">reed more >></a>
-                        </div>
+                        <!-- END: Card -->
                     </div>
-                    <!-- END: Card -->
-                </div>
-                <div class="col">
-                    <!-- START: Card -->
-                    <div class="card">
-                        <div class="image">
-                            <img src="images/udacity_branding_4x.webp" alt="image">
+                    <div class="col">
+                        <!-- START: Card -->
+                        <div class="card">
+                            <figure class="image">
+                                <img src="images/udacity_branding_4x.webp" alt="image">
+                                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error
+                                    cupiditate vero
+                                    velit corrupti</figcaption>
+                            </figure>
+                            <div class="content">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                                    vero
+                                    velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
+                                    ipsam.
+                                    Dignissimos cum voluptas libero voluptates.
+                                    In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
+                                    reiciendis
+                                    esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium
+                                    architecto
+                                    culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
+                                    Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi
+                                    quia
+                                    laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus
+                                    odit
+                                    harum?
+                                    Aut possimus voluptate suscipit. Iusto, recusandae?</p>
+                                <a class="btn" href="./blog.html">reed more</a>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h3>Title</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate vero
-                                velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
-                                ipsam.
-                                Dignissimos cum voluptas libero voluptates.
-                                In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
-                                reiciendis
-                                esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium architecto
-                                culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
-                                Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi quia
-                                laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus odit
-                                harum?
-                                Aut possimus voluptate suscipit. Iusto, recusandae?</p>
-                            <a href="#">reed more >></a>
-                        </div>
+                        <!-- END: Card -->
                     </div>
-                    <!-- END: Card -->
+                    <div class="col">
+                        <!-- START: Card -->
+                        <div class="card">
+                            <figure class="image">
+                                <img src="images/udacity_branding_4x.webp" alt="image">
+                                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error
+                                    cupiditate vero
+                                    velit corrupti</figcaption>
+                            </figure>
+                            <div class="content">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint error cupiditate
+                                    vero
+                                    velit corrupti, aspernatur vel cum nobis culpa ducimus consequuntur perspiciatis quo
+                                    ipsam.
+                                    Dignissimos cum voluptas libero voluptates.
+                                    In assumenda aliquam eveniet, nostrum corrupti accusantium voluptatibus similique
+                                    reiciendis
+                                    esse delectus voluptas explicabo doloribus laboriosam, veniam non praesentium
+                                    architecto
+                                    culpa illo laborum dicta cupiditate incidunt et mollitia? Earum, modi.
+                                    Quae voluptates assumenda ea consequatur quas, iusto provident aspernatur commodi
+                                    quia
+                                    laborum quisquam soluta consectetur similique in nostrum alias ab repellat minus
+                                    odit
+                                    harum?
+                                    Aut possimus voluptate suscipit. Iusto, recusandae?</p>
+                                <a class="btn" href="./blog.html">reed more</a>
+                            </div>
+                        </div>
+                        <!-- END: Card -->
+                    </div>
                 </div>
             </div>
             <!-- END: related -->
@@ -212,6 +310,25 @@
         </footer>
         <!-- END: Footer -->
     </div>
+
+    <svg display="none" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="icon-linkedIn" viewBox="0 0 382 382" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M347.445 0H34.555C15.471 0 0 15.471 0 34.555v312.889C0 366.529 15.471 382 34.555 382h312.889C366.529 382 382 366.529 382 347.444V34.555C382 15.471 366.529 0 347.445 0zM118.207 329.844c0 5.554-4.502 10.056-10.056 10.056H65.345c-5.554 0-10.056-4.502-10.056-10.056V150.403c0-5.554 4.502-10.056 10.056-10.056h42.806c5.554 0 10.056 4.502 10.056 10.056v179.441zM86.748 123.432c-22.459 0-40.666-18.207-40.666-40.666S64.289 42.1 86.748 42.1s40.666 18.207 40.666 40.666-18.206 40.666-40.666 40.666zM341.91 330.654a9.247 9.247 0 0 1-9.246 9.246H286.73a9.247 9.247 0 0 1-9.246-9.246v-84.168c0-12.556 3.683-55.021-32.813-55.021-28.309 0-34.051 29.066-35.204 42.11v97.079a9.246 9.246 0 0 1-9.246 9.246h-44.426a9.247 9.247 0 0 1-9.246-9.246V149.593a9.247 9.247 0 0 1 9.246-9.246h44.426a9.247 9.247 0 0 1 9.246 9.246v15.655c10.497-15.753 26.097-27.912 59.312-27.912 73.552 0 73.131 68.716 73.131 106.472v86.846z"
+                fill="#0077b7" />
+        </symbol>
+        <symbol id="icon-facebook" viewBox="0 0 408.788 408.788" id=".6881846358747183"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M353.701 0H55.087C24.665 0 .002 24.662.002 55.085v298.616c0 30.423 24.662 55.085 55.085 55.085h147.275l.251-146.078h-37.951a8.954 8.954 0 0 1-8.954-8.92l-.182-47.087a8.955 8.955 0 0 1 8.955-8.989h37.882v-45.498c0-52.8 32.247-81.55 79.348-81.55h38.65a8.955 8.955 0 0 1 8.955 8.955v39.704a8.955 8.955 0 0 1-8.95 8.955l-23.719.011c-25.615 0-30.575 12.172-30.575 30.035v39.389h56.285c5.363 0 9.524 4.683 8.892 10.009l-5.581 47.087a8.955 8.955 0 0 1-8.892 7.901h-50.453l-.251 146.078h87.631c30.422 0 55.084-24.662 55.084-55.084V55.085C408.786 24.662 384.124 0 353.701 0z"
+                fill="#475993" />
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 410.155 410.155" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M403.632 74.18a162.414 162.414 0 0 1-28.28 9.537 88.177 88.177 0 0 0 23.275-37.067c1.295-4.051-3.105-7.554-6.763-5.385a163.188 163.188 0 0 1-43.235 17.862 11.02 11.02 0 0 1-2.702.336c-2.766 0-5.455-1.027-7.57-2.891-16.156-14.239-36.935-22.081-58.508-22.081-9.335 0-18.76 1.455-28.014 4.325-28.672 8.893-50.795 32.544-57.736 61.724-2.604 10.945-3.309 21.9-2.097 32.56a3.166 3.166 0 0 1-.797 2.481 3.278 3.278 0 0 1-2.753 1.091c-62.762-5.831-119.358-36.068-159.363-85.14-2.04-2.503-5.952-2.196-7.578.593-7.834 13.44-11.974 28.812-11.974 44.454 0 23.972 9.631 46.563 26.36 63.032a79.24 79.24 0 0 1-20.169-7.808c-3.06-1.7-6.825.485-6.868 3.985-.438 35.612 20.412 67.3 51.646 81.569a79.567 79.567 0 0 1-16.786-1.399c-3.446-.658-6.341 2.611-5.271 5.952 10.138 31.651 37.39 54.981 70.002 60.278-27.066 18.169-58.585 27.753-91.39 27.753l-10.227-.006c-3.151 0-5.816 2.054-6.619 5.106-.791 3.006.666 6.177 3.353 7.74 36.966 21.513 79.131 32.883 121.955 32.883 37.485 0 72.549-7.439 104.219-22.109 29.033-13.449 54.689-32.674 76.255-57.141 20.09-22.792 35.8-49.103 46.692-78.201 10.383-27.737 15.871-57.333 15.871-85.589v-1.346c-.001-4.537 2.051-8.806 5.631-11.712a174.776 174.776 0 0 0 35.16-38.591c2.573-3.849-1.485-8.673-5.719-6.795z"
+                fill="#76a9ea" />
+        </symbol>
+    </svg>
 </body>
 
 </html>
